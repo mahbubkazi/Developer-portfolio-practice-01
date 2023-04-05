@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h4{
+    text-align: center;
+}
 .name-color{
     color: coral;
 }
@@ -22,7 +25,7 @@ h1{
 p{
     text-align: justify;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -33,6 +36,7 @@ section{
 }
 .half-width img{
     width: 80%;
+    padding-left: 10%;
 }
 .link-button{
     text-decoration: none;
@@ -52,4 +56,36 @@ section{
     background-image: url(Image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;    
+}
+.web-fundamental{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+.fundamental-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+.learn-web{
+    text-align: center;
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+#html-items{
+    border-left: 8px solid orangered;
+    padding: 5px;
+}
+#css-items{
+    border-left: 8px solid blue;
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+    color: brown;
 }
