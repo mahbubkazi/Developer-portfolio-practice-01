@@ -9,9 +9,18 @@ h1{
     color: coral;
 }
 .new-border{
-    border: solid black;
+    border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
+}
+.dev-border{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10%;
+}
+p{
+    text-align: justify;
 }
 section{
     display: flex;
@@ -20,6 +29,7 @@ section{
     width: 50%;
     padding-left: 2%;
     padding-right: 2%;
+    margin-bottom: 100px;
 }
 .half-width img{
     width: 80%;
@@ -37,4 +47,9 @@ section{
 .top-banner{
     background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;    
+}
+.dream-bgbanner{
+    background-image: url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;    
 }
